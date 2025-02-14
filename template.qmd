@@ -1,0 +1,21 @@
+---
+format:
+    docx:
+        reference-doc: simple.docx
+        toc: true
+        toc-depth: 3 
+bibliography: citations.bib
+number-sections: true
+crossref:
+    custom:
+        - kind: float
+          reference-prefix: Table S
+          key: stbl
+          space-before-numbering: false
+          caption-location: top
+        - kind: float
+          reference-prefix: Figure S
+          key: sfig
+          space-before-numbering: false
+---
+
